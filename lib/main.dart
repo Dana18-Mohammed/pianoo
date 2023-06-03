@@ -111,7 +111,7 @@ class MusicPianoState extends State<MusicPiano> {
                 highlightedNotes: [NotePosition(note: Note.C, octave: 3)],
                 naturalColor: Colors.white,
                 accidentalColor: Colors.black,
-                // keyWidth: 60,
+                keyWidth: 60,
                 noteRange: NoteRange.forClefs(
                   [
                     Clef.Treble,
